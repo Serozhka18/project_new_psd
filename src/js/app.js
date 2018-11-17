@@ -4,9 +4,12 @@ import 'jquery';
 
 $(function () {
     $('.products__toggles button').click(function () {
-        var get_id = this.id;
+        let get_id = this.id;
 
-        var get_current = $('.products__posts .' + get_id);
+        $('.products__toggles__active').removeClass('products__toggles__active');
+        $(this).addClass('products__toggles__active');
+
+        let get_current = $('.products__posts .' + get_id);
 
         $('.post').not(get_current).hide(500);
 

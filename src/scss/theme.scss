@@ -218,10 +218,12 @@ section{
         text-align: left;
         margin: 0 auto;
         z-index: 117;
+      transition: all 0.5s;
 
       .products__toggles__active{
         color: red;
-        background-color: black;
+        border: none;
+        transition: all 0.5s;
       }
 
       button{
@@ -237,6 +239,7 @@ section{
         text-align: left;
         z-index: 118;
         margin-right: 50px;
+        outline: none;
 
       }
 
@@ -425,8 +428,6 @@ section{
           margin-bottom: 140px;
           display: flex;
           justify-content: center;
-          input{
-
           }
         }
 
@@ -471,23 +472,21 @@ section{
         }
 
         button{
-            border-radius: 5px;
-            background-color: rgb(255, 45, 45);
-            width: 214px;
-            height: 79px;
-            z-index: 56;
-
-            font-size: 12px;
-            font-family: 'Open Sans', sans-serif;;
-            color: rgb(255, 255, 255);
-            font-weight: bold;
-            text-transform: uppercase;
-            line-height: 1.892;
-            letter-spacing: 1.5px;
-             border: none;
+          border-radius: 5px;
+          background-color: rgb(255, 45, 45);
+          width: 214px;
+          height: 79px;
+          z-index: 56;
+          border: none;
+          font-size: 12px;
+          font-family: 'Open Sans', sans-serif;;
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+          text-transform: uppercase;
+          line-height: 1.892;
+          letter-spacing: 1.5px;
         }
       }
-}
 
 .tuch{
 

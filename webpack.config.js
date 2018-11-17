@@ -31,7 +31,7 @@ module.exports = {
     devServer: {
         contentBase: './',
         inline:true,
-        port: 20001
+        port: 3002
     },
 
     // connect other plugins
